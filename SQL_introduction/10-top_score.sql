@@ -1,3 +1,3 @@
 -- script to list all values in a table ordered by score (descending) and id (ascending)
 
-SELECT * FROM second_table ORDER BY score DESC, id ASC;
+SELECT score, name FROM second_table ORDER BY score DESC;
