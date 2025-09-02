@@ -1,4 +1,5 @@
---script to list all databases
+-- script to create a database and a table if they do not exist, and insert values into the table
+
 CREATE TABLE IF NOT EXISTS hbtn_0c_0.second_table(id int, name varchar(256),score int);
 
 INSERT INTO hbtn_0c_0.second_table (id,name,score)
